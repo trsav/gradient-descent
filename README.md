@@ -1,4 +1,4 @@
-# Gradient Descent optimization utilizing finite difference approximations and a plotting utility within Python
+# Gradient Descent optimization and plotting utility using finite difference approximations within Python
 
 ## Gradient Descent Background
 Gradient descent is an optimization algorithm that locates the minimum of a function by utilizing the gradient of the function. 
@@ -15,7 +15,7 @@ This procedure is then repeated until the gradient falls below a tolerance value
 
 ### Finite Difference Approximation
 
-Here, I've used the central difference method in order to approximate the derivative of the function at a certain point. For each dimension the derivative is calculated using the following formula.  <img src="https://github.com/TomRSavage/GradientDescent/blob/master/CentralDifference.PNG" width="200">
+Here, I've used the central difference method in order to approximate the derivative of the function at a certain point. For each dimension the derivative is calculated using the following formula.  <img src="https://github.com/TomRSavage/GradientDescent/blob/master/CentralDifference.png" width="200">
 
 ### Back-track Line Search
 A line search is a 2 dimensional optimization problem that occurs within each iteration. On the y-axis is function value, and on the x-axis is step size (often referred to as alpha). As it is not desirable to find exactly the optimum step size (sometimes it is when you're reaching the end of the gradient descent, and looking to converge on an exact answer) a line search is performed. 
@@ -33,7 +33,7 @@ Tuning these parameters can take the shape of a meta-optimization problem.
 
  ### Effect of Mu on descent trajectory 
 
- <img align='center' src="https://github.com/TomRSavage/ParticleSwarm/blob/master/mu.gif" width="400">
+ <img align="center" src="https://github.com/TomRSavage/GradientDescent/blob/master/mu.gif" width="400">
  The above animation shows the effect of changing mu on the trajectory. Here the analogy of a ball rollilng down a hill becomes relatively clear, with friction of the function space being determined by mu. 
 
 
@@ -72,7 +72,7 @@ Function value at Optimum: 7.738161314471374e-07
 Iterations: 978
 
 ```
-<img align='center' src="https://github.com/TomRSavage/ParticleSwarm/blob/master/traj.png" width="400"> <img align='center' src="https://github.com/TomRSavage/ParticleSwarm/blob/master/func.png" width="400">
+<img align="center" src="https://github.com/TomRSavage/GradientDescent/blob/master/traj.png" width="400"> <img align="center" src="https://github.com/TomRSavage/GradientDescent/blob/master/func.png" width="400">
 
 ## Authors
 
