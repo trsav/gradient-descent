@@ -36,7 +36,7 @@ Tuning these parameters can take the shape of a meta-optimization problem.
 <p align="center">
  <img src="https://github.com/TomRSavage/GradientDescent/blob/master/mu.gif" width="500">
  </p>
- The above animation shows the effect of changing mu on the trajectory. Here the analogy of a ball rollilng down a hill becomes relatively clear, with friction of the function space being determined by mu. 
+ The above animation shows the effect of changing mu on the trajectory. Here the analogy of a ball rolling down a hill becomes relatively clear, with friction of the function space being determined by mu. 
 
 
 ### Prerequisites
