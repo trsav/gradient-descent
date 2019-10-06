@@ -1,7 +1,7 @@
-# Gradient Descent optimization using finite difference approximations within Python
+# Gradient Descent optimisation using finite difference approximations within Python
 
 ## Gradient Descent Background
-Gradient descent is an optimization algorithm that locates an optimal solution of a function by exploiting information about the functions derivatives.
+Gradient descent is an optimisation algorithm that locates an optimal solution of a function by exploiting information about the functions derivatives.
  Quite simply every iteration of the algorithm the following is performed:
 
 The gradient at the current 'position' is found. Here through the use of a finite difference approximation. 
@@ -29,7 +29,7 @@ A major addition to the effectiveness of gradient descent is the addition of mom
 
 This momentum term comes with yet another tunable parameter (along with the 3 in the back-track line search). This parameter is analogous to the 'friction' experienced by the search point, and regulates how much it's velocity affects it's overall path. 
 
-Tuning these parameters can take the shape of a meta-optimization problem, however often experience of the optimisation problem is combined with heuristic knowledge in order to determine the parameters.  
+Tuning these parameters can take the shape of a meta-optimisation problem, however often experience of the optimisation problem is combined with heuristic knowledge in order to determine the parameters.  
 
 
  ### Effect of Mu on descent trajectory 
